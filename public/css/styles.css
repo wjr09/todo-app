@@ -117,7 +117,22 @@ main{
     color: var(--info-text-color);
 }
 
-.informaçoes a {
+.informaçoes a,
+.botoes a{
     text-decoration: none;
     color: var(--info-text-color);
 }
+
+.botoes{
+    padding-block: 1rem;
+    background: var(--bg-tarefas);
+    border-radius: .3125rem;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+
+    font-size: .875rem;
+}
+
