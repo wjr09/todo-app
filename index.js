@@ -61,7 +61,7 @@ const conexao = mysql.createConnection({
     user: "root",
     password: "root",
     database: "todoapp",
-    port: 3307
+    port: 3306
 })
 
 conexao.connect((erro) => {
